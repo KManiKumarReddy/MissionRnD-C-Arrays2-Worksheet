@@ -124,5 +124,5 @@ struct transaction * sortedArraysCommonElements(struct transaction *A, int ALen,
 		else
 			i++;
 	}
-	return result;
+	return count ? result : NULL;
 }
